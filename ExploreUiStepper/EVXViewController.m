@@ -18,7 +18,8 @@
 - (IBAction)myActionStepper:(id)sender
 {
     UIStepper *myStepper = (UIStepper *) sender;
-    
+    NSString *newValueAsString = [NSString stringWithFormat:@"%f",myStepper.value];
+    self.myLabelStepper.text = newValueAsString;
 }
 
 - (void)viewDidLoad
