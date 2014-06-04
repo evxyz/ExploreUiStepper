@@ -17,7 +17,8 @@
 @implementation EVXViewController
 - (IBAction)myActionStepper:(id)sender
 {
-
+    UIStepper *myStepper = (UIStepper *) sender;
+    
 }
 
 - (void)viewDidLoad
