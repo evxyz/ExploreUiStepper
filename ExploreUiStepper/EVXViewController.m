@@ -9,10 +9,16 @@
 #import "EVXViewController.h"
 
 @interface EVXViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *myLabelStepper;
+@property (weak, nonatomic) IBOutlet UIStepper *myStepper;
 
 @end
 
 @implementation EVXViewController
+- (IBAction)myActionStepper:(id)sender
+{
+
+}
 
 - (void)viewDidLoad
 {
